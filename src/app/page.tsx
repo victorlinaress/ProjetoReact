@@ -1,4 +1,4 @@
-import test from '@/components/test';
+import test from "@/components/test";
 
 const Page = () => {
   return (
@@ -8,4 +8,6 @@ const Page = () => {
   );
 };
 
-export default Page
+export default Page;
+
+teste
