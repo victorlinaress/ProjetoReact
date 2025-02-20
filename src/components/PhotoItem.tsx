@@ -8,7 +8,7 @@ type Props = {
 export const PhotoItem = ({ photo, onClick }: Props) => {
   return (
     <div onClick={onClick} className="cursor-pointer hover:opacity-80">
-      <img src={`assets/${photo.url}`} className="w-full"/>
+      <img src={`assets/${photo.url}`} className="w-full h-60 object-cover rounded-lg"/>
     </div>
   );
 };
